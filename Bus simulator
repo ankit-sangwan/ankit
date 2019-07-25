@@ -1,0 +1,6 @@
+mkdir android-games-sdk
+cd android-games-sdk
+repo init -u https://android.googlesource.com/platform/manifest -b android-games-sdk
+# Or for Googlers:
+# repo init -u persistent-https://googleplex-android.git.corp.google.com/platform/manifest -b android-games-sdk
+repo sync -c -j8 
